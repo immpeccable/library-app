@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src = "app.js" defer></script>
+    <title>Library</title>
+</head>
+<body>
+    <div class = "upper-content">
+        <div class = "bold-big">
+            Tuna Library App
+        </div>
+        <div class = "credit-1">
+            This is an example odin project which I try to make a library app with <span class = "italic"> Object Constructors</span> and <span class = "italic">Local Storage</span>.
+        </div>
+        <div class = "credit-2">
+            The <a href="https://github.com/immpeccable/library-app">Github Repository</a> can be reached from here.
+        </div>
+
+        <div class = "adding-book">
+            <div class = "item">
+                <div class = "txt">
+                    Book
+                </div>
+                <input id = "book-text" type="text">
+            </div>
+            <div class = "item">
+                <div class = "txt">
+                    Author
+                </div>
+                <input id = "author-text" type="text">
+            </div>
+            <div class = "item">
+                <div class = "txt">
+                    Status
+                </div>
+                <select name="status" id="status">
+                    <option class = "opt" value="read">Read</option>
+                    <option class = "opt" value="not-read">Not Read</option>
+                </select>
+            </div>
+            
+        </div>
+        <button class = "submit-button">
+            Submit
+        </button>
+    </div>
+    
+    <div class = "book-grid" id = "grid">
+        <div class = "item first"> 
+            <div class = "name">
+                Name
+            </div>
+            <div class = "author"> 
+                Author
+            </div>
+            <div class = "status">
+                Status
+            </div>
+        </div>   
+    </div>
+    
+</body>
+</html>
